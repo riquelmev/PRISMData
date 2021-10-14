@@ -1,0 +1,4 @@
+FROM nvidia/cuda:10.2-base
+CMD nvidia-smi
+
+CMD ["python3", "LossPrediction.py"]
